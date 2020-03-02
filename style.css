@@ -1,0 +1,41 @@
+body {background-color: #f7f7f7;
+	color: black;
+	font-family: helvetica;
+	text-align: center; 
+	}
+
+h1 {color: purple;
+	font-family: times;
+	font-weight: 3000;
+	letter-spacing: 7px;
+	font-size: 40px;
+	text-align: center;
+	}
+
+	h2, h2, h3 {color: purple;
+				font-family: times, sans-serif;
+				font-weight:2000;
+				font-size: 30px;
+				}
+
+a {
+  color: purple;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  /
+  .container {
+    width: 500px;
+  }
+}
+
